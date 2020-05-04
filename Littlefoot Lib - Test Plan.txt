@@ -1,0 +1,377 @@
+=> **Table of Contents**
+-------------------------
+
+1. Introduction
+2. Scope
+3. Quality Objectives
+	3.1 Primary Objectives
+	3.2 Secondary Objectives
+4. Test Approach
+	4.1 Test Automation
+5. Roles & Responsibilities
+6. Entry & Exit Criterias
+	6.1 Entry Criteria
+	6.2 Exit Criteria
+7. Suspension Criteria & Resumption Requirements
+	7.1 Suspension Criteria
+	7.2 Resumption Criteria
+8. Test Strategy
+	8.1 QA role in test process
+	8.2 Bug Life Cycle
+	8.3 Testing Types
+	8.4 Bug Severity & Priority Definition
+	- Severity List
+	- Priority List
+9. Resource & Environment Needs
+	9.1 Testing Tools
+	9.2 Configuration Management
+	9.3 Testing Environment
+10. Test Schedule
+
+Approvals
+Terms / Acronyms
+
+----------------------------------------------------
+
+=> **Test Plan**
+-----------------
+
+Project Name : "Littlefoot Library"
+
+Document Revision History
+
+Date : 03/05/2020
+Version : 0.1
+Description : Testing plan document for Littlefoot Library
+Author : Manush Desai
+
+
+----------------------------------------------------
+
+=> **1. INTRODUCTION**
+------------------------
+
+Mr. Langston wants a perfect platform, which passes the full cycle of manual and/or automation testing. Given the specificity of the platform it is very important to have the exact output as mentioned in the scope document.
+
+The Test Plan has been created to facilitate communication within the team members. This document describe approaches and methodologi
+es that will apply to the unit, integration and system testing of the "Littlefoot Library". It includes the objectives, test responsibilities, entry and exit criteria, scope, schedule major milestones, entry and exit criteria and approach. This document has clearly identified what the test deliverables will be, and what is deemed in and out of scope.
+
+=> **2. Scope**
+------------------------------
+
+The document mainly targets the GUI testing and validating data in report output as per Requirements Specifications provided by Client shared in the scope document.
+
+2.1 Functions to be tested
+
+	- GUI
+	- The input methods of book data following by the input details like Title, Author, Pages read, DDC and Read Type.
+	- Search and Filters Logic
+	- Search Result 
+	
+2.2 Functions not to be tested
+	
+	- Not other than mentioned above in section 2.1
+	
+=> **3. Scope**
+------------------------------
+
+3.1 Quality Objectives
+
+A primary objective of testing is to: assure that the system meets the full requirements, including quality requirements (functional and non-functional requirements) and fit metrics for each quality requirement and satisfies the use case scenarios and maintain the quality of the product. At the end of the project development cycle, the user should find that the project has met or exceeded all of their expectations as detailed in the requirements.
+
+Any changes, additions, or deletions to the requirements document, Functional Specification, or Design Specification will be documented and tested at the highest level of quality allowed within the remaining time of the project and within the ability of the test team.
+
+3.2 Secondary Objectives
+
+The secondary objectives of testing will be to: identify and expose all issues and associated risks, communicate all known issues to the project team, and ensure that all issues are addressed in an appropriate matter before release. As an objective, this requires careful and methodical testing of the application to first ensure all areas of the system are scrutinized and, consequently, all issues (bugs) found are dealt with appropriately.
+
+=> **4. Test Approach**
+------------------------------
+
+The approach, that used, is Analytical therefore, in accordance to requirements-based strategy, where an analysis of the requirements specification forms the basis for planning, estimating and designing tests. Test cases will be created during exploratory testing. All test types are determined in Test Strategy.
+
+Team also must used experience-based testing and error guessing utilize testers' skills and intuition, along with their experience with similar applications or technologies.
+
+The project is using an agile approach, completion of the each module delivered to the team and will be tested and test completion can be done based on test matrix.
+
+4.1 Test Automation
+
+Automated unit tests are part of the development process, and UI smoke-tests from CHL01 must be also automated during which performance data must be captured.
+
+=> **5. Roles & Responsibilities**
+------------------------------------
+
+Project Manager : 
+- Acts as a primary contact for development and QA
+team.
+- Responsible for Project schedule and the overall
+success of the project.
+
+QA Lead : 
+- Participation in the project plan creation/update process.
+- Planning and organization of test process for the release.
+- Coordinate with QA analysts/engineers on any
+issues/problems encountered during testing.
+- Report progress on work assignments to the PM
+
+QA : 
+
+- Understand requirements
+- Writing and executing Test cases
+- Preparing RTM
+- Reviewing Test cases, RTM
+- Defect reporting and tracking
+- Retesting and regression testing
+- Bug Review meeting
+- Preparation of Test Data
+- Coordinate with QA Lead for any issues or problems
+encountered during test preparation/execution/defect
+handling.
+
+=> **6. Entry & Exit Criteria**
+------------------------------------
+
+6.1 Entry Criteria
+
+- All test hardware platforms must have been successfully installed, configured, and
+functioning properly.
+- All the necessary documentation, design, and requirements information should be
+available that will allow testers to operate the system and judge the correct behavior.
+- All the standard software tools including the testing tools must have been
+successfully installed and functioning properly.
+- Proper test data is available.
+- The test environment such as, lab, hardware, software, and system administration
+support should be ready.
+- QA resources have completely understood the requirements
+- QA resources have sound knowledge of functionality
+- Reviewed test scenarios, test cases and RTM 
+
+6.2 Exit Criteria
+
+- A certain level of requirements coverage has been achieved.
+- No high priority or severe bugs are left outstanding.
+- All high-risk areas have been fully tested, with only minor residual risks left outstanding.
+- Cost – when the budget has been spent.
+- The schedule has been achieved
+
+=> **7. Suspension criteria & Resumption Requirements**
+------------------------------------
+
+7.1 Suspension Criteria
+
+- The build contains many serious defects which seriously or limit testing progress
+- Significant change in requirements suggested by client
+- Software/Hardware problems
+- Assigned resources are not available when needed by test team.
+
+7.2  Resumption criteria
+
+Resumption will only occur when the problem(s) that caused the caused the suspension have been resolved
+
+=> **8. Test Strategy**
+------------------------
+
+8.1 QA role in test process
+
+- Understanding Requirements
+- Preparing Test Cases
+- Reviewing test cases and matrix
+- Creating Test Data
+- Executing Test Cases
+- Retesting and Regression Testing
+- Deployment/Delivery
+
+8.2 Bug Life Cycle
+
+- All the issues found while testing will be logged into Word document.
+
+- Screenshot of Bug life cycle : http://prntscr.com/s9zbeb
+
+8.3 Testing Types
+
+- Black box Testing
+- GUI Testing
+- Functional Testing
+- System Testing
+- Performance Testing
+- User Acceptance Testing
+- UAT
+- Alpha Testing
+
+8.4 Bug Severity and Priority Definition
+
+Bug Severity and Priority fields are both very important for categorizing bugs and prioritizing if and when the bugs will be fixed. The bug Severity and Priority levels will be defined as outlined in the following tables below. Testing will assign a severity level to all bugs. The Test Lead will be responsible to see that a correct severity level is assigned to each bug.
+
+The QA Lead, Development Lead and Project Manager will participate in bug review meetings to assign the priority of all currently active bugs. This meeting will be known as “Bug Triage Meetings”. The QA Lead is responsible for setting up these meetings on a routine basis to address the current set of new and existing but unresolved bugs.
+
+** Severity List ** 
+
+Critical : The module/product crashes or the bug causes nonrecoverable conditions. System crashes, GP Faults, or database or file corruption, or potential data loss, program hangs requiring reboot are all examples of a Sev. 1 bug
+
+High : Major system component unusable due to failure or incorrect functionality. Sev. 2 bugs cause serious problems such as a lack of functionality, or insufficient or unclear error messages that can have a major impact to the user, prevents other areas of the app from being tested, etc. Sev. 2 bugs can have a work around, but the work around is inconvenient or difficult.
+
+Medium : Incorrect functionality of component or process. There is a simple work around for the bug if it is Sev. 3.
+
+Minor : Documentation errors or signed off severity 3 bugs.
+
+** Priority List ** 
+
+Must Fix : This bug must be fixed immediately; the product cannot ship with this bug.
+
+Should Fix : These are important problems that should be fixed as soon as possible. It would be an embarrassment to the company if this bug shipped.
+
+Fix When Have Time : The problem should be fixed within the time available. If the bug does not delay shipping date, then fix it.
+
+Low Priority : It is not important (at this time) that these bugs be addressed. Fix these bugs after all other bugs have been fixed. Enhancements/ Good to have features incorporatedjust are out of the current scope.
+
+=> **9. Resource & Environment Needs**
+---------------------------------------
+
+9.1 Testing Tools
+
+Test case creation - NA
+Test case tracking - NA
+Test case execution - Automation, Visual Studio 
+Test case management - NA
+Defect management -  NA
+Test reporting - text file
+Check list creating - NA
+
+9.2 Configuration Management
+
+Code : Git
+
+Test Environment
+
+Support level 1 (browsers):
+	- Chrome Browser
+	
+	
+=> **10. Test Schedule**
+-------------------------
+
+Task Name : Test Planning
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : Review Requirements documents
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : Create test basis
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : Staff and train new test resources
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : First deploy to QA test environment
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : Functional testing – Iteration 1
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : Iteration 2 deploy to QA test environment
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : Functional testing – Iteration 2
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : System testing
+Start Date : 
+End Date : 
+Comments :
+
+Task Name : Regression testing
+Start Date : 
+End Date : 
+Comments : 
+
+Task Name : UAT
+Start Date : 
+End Date : 
+Comments :  
+
+Task Name : Resolution of final defects and final build testing
+Start Date : 
+End Date : 
+Comments : 
+
+Task Name : Deploy to Staging environment
+Start Date : 
+End Date : 
+Comments : 
+
+Task Name : Performance testing
+Start Date : 
+End Date : 
+Comments : 
+
+Task Name : Release to Production
+Start Date : 
+End Date : 
+Comments : 
+
+** APPROVALS ** 
+
+Name of manager : 
+Signature : 
+
+Name QA Lead : 
+Signature : 
+
+Terms / Acronyms
+
+The below terms are used as examples, please add/remove any terms relevant to the document.
+
+TERM/ACRONYM - DEFINITION
+API - Application Program Interface
+GUI - Graphical user interface
+PM - Project manager
+UAT - User acceptance testing
+CM - Configuration Management
+QA - Quality Assurance
+RTM - Requirements Traceability Matrix
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
