@@ -1,0 +1,5 @@
+Name,IsTownResident,BookTitle,BookAuthor,NumberOfPages,DDC,BookRead,TimeTaken,Rating
+User 1,Yes,Presumptions of Philosophy,Donald Daffy Duckworth,657,120.563DUC,Fully,2-3 weeks,3
+User 2,No,Philosophical Ponderings,Mickey and Minnie Mouse,1200,125.563MOU,Partially,Less then 1 week,4
+User 3,No,Application of Natural Sciences,Rick Sanchez,145,601.103SAN,Fully,4 weeks or more,2
+User 4,Yes,Rented and Unread,Solitude OBrien,734,834.334OBR,Unread,Less then 1 week,1

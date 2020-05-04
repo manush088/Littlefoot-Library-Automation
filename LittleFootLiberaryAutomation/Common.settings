@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LittleFootLiberaryAutomation" GeneratedClassName="Common">
+  <Profiles />
+  <Settings>
+    <Setting Name="LogFileLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Log\\LogTest</Value>
+    </Setting>
+    <Setting Name="WebsiteURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Form\\Web.html</Value>
+    </Setting>
+    <Setting Name="CSVFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\manus\\source\\repos\\LittleFootLiberaryAutomation\\LittleFootLiberaryAutomation\\TestData\\LibData.csv</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
