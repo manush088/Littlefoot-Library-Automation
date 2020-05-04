@@ -1,0 +1,31 @@
+<html>
+<h1>Littlefoot Library</h1>
+<form accept-charset="UTF-8" action="submit_action" autocomplete="off" method="GET" target="_blank">
+    <fieldset>
+        <legend>Book Return:</legend> <label for="name">Your Name:</label><br /> <input name="name" type="text" id="name" /><br /> <label for="town_resident">Town Resident?</label><br /> <input id="res_yes" checked="checked" name="town_resident" type="radio" value="yes" /> Yes <br /> <input id="res_no" type="radio" value="no"  name="town_resident"/> No <br />
+        <label for="title">Title:</label><br /> <input name="title" type="text" id="title" /><br /> <label for="author">Author:</label><br /> <input name="author" type="text"/><br /> <label for="pages">Number of Pages:</label><br /> <input name="pages" type="text" /><br /> <label for="dewey_decimal">Dewey Decimal Number:</label><br /> <input name="dewey_decimal" type="text" /><br />
+        <label for="book_read_amount">How Much of the book was read?</label><br /> 
+
+
+        <select id="HowmuchBookRead">
+
+
+
+         <option value="fully">Read</option>
+         <option value="partially">Partially</option>
+          <option value="unread">Not Read</option>
+          </select><br /> <label for="time_to_read">Time taken to read book:</label><br />
+        <select id="TimeTakenBookRead">
+            <option value="less_week">Less then 1 week</option>
+            <option value="2_3weeks">2-3 weeks</option>
+            <option value="morethen_4weeks">4 weeks or more</option>
+        </select><br /> <label for="rating">Your rating:</label><br /> <select name="Rating">
+            <option  value="5">★★★★★</option>
+            <option value="4">★★★★</option>
+            <option value="3">★★★</option>
+            <option value="2">★★</option>
+            <option value="1">★</option>
+        </select><br /> <br /> <button type="submit" value="Submit">Submit</button>
+    </fieldset>
+</form>
+</html>
