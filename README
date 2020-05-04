@@ -1,0 +1,6 @@
+LITTLEFOOT AUTOMATION
+
+I have created automation using visual studio, Selenium, C# programming Langauge. 
+This code will read the CSV data and enter the data into website.
+After Entering the data it will will total number of pages read and based on dewey decimal number it will classified book category.
+It will also generate log file in txt file format at the end of test case result.
